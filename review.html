@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Irini Pericleous Site Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Inter+Tight:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    --paper:      #f2efe9;
+    --paper-sunk: #eae5dc;
+    --ink:        #17150f;
+    --ink-soft:   #5a554a;
+    --ink-faint:  #8a8377;
+    --rule:       #d9d3c6;
+    --garnet:     #8c2233;
+    --garnet-bg:  #f6e9e9;
+    --ok:         #2f6b4f;
+
+    --display: "Bodoni Moda", Didot, Georgia, serif;
+    --sans: "Inter Tight", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color-scheme: light dark;
+  }
+
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #0c0b0a;
+      --paper-sunk: #151312;
+      --ink:        #efeae1;
+      --ink-soft:   #b3ac9f;
+      --ink-faint:  #857e72;
+      --rule:       #2b2723;
+      --garnet:     #e0798a;
+      --garnet-bg:  #241417;
+      --ok:         #7fc09b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:      #0c0b0a;
+    --paper-sunk: #151312;
+    --ink:        #efeae1;
+    --ink-soft:   #b3ac9f;
+    --ink-faint:  #857e72;
+    --rule:       #2b2723;
+    --garnet:     #e0798a;
+    --garnet-bg:  #241417;
+    --ok:         #7fc09b;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.55;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+  @media (min-width: 48rem) { .wrap { padding: 4rem 2rem 6rem; } }
+
+  .eyebrow {
+    font-size: .6875rem; font-weight: 600; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--ink-faint); margin: 0;
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(2.1rem, 7vw, 3.4rem);
+    line-height: 1.02;
+    letter-spacing: -.02em;
+    margin: .6rem 0 0;
+    text-wrap: balance;
+  }
+
+  .standfirst {
+    font-size: 1.0625rem; color: var(--ink-soft);
+    margin: 1.1rem 0 0; max-width: 34rem; text-wrap: pretty;
+  }
+
+  /* --- The link, which is the point of the page --------------------- */
+  .visit {
+    display: block; margin-top: 2rem; padding: 1.25rem 1.35rem;
+    background: var(--ink); color: var(--paper);
+    text-decoration: none; border-radius: 2px;
+  }
+  .visit:hover, .visit:focus-visible { background: var(--garnet); color: #fff; }
+  .visit .label {
+    font-size: .6875rem; font-weight: 600; letter-spacing: .16em;
+    text-transform: uppercase; opacity: .72; display: block;
+  }
+  .visit .url {
+    font-size: clamp(.95rem, 3.4vw, 1.25rem); font-weight: 500;
+    margin-top: .4rem; display: block; word-break: break-all; line-height: 1.3;
+  }
+  .visit-note {
+    font-size: .8125rem; color: var(--ink-faint);
+    margin: .7rem 0 0;
+  }
+
+  /* --- Numbered sections: the numbering is the review order ---------- */
+  section { margin-top: 3.25rem; border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+  .head { display: flex; gap: .9rem; align-items: baseline; }
+  .num {
+    font-family: var(--display); font-size: 1rem; color: var(--garnet);
+    font-variant-numeric: tabular-nums; min-width: 1.6rem;
+  }
+  h2 {
+    font-family: var(--display); font-weight: 500;
+    font-size: clamp(1.4rem, 4.4vw, 1.9rem); line-height: 1.1;
+    margin: 0; letter-spacing: -.01em; text-wrap: balance;
+  }
+  .lede { color: var(--ink-soft); margin: .75rem 0 0 2.5rem; max-width: 36rem; }
+  @media (max-width: 34rem) { .lede { margin-left: 0; } }
+
+  .body { margin-left: 2.5rem; }
+  @media (max-width: 34rem) { .body { margin-left: 0; } }
+
+  ol.looks { list-style: none; padding: 0; margin: 1.4rem 0 0; display: grid; gap: .85rem; }
+  ol.looks li {
+    display: grid; grid-template-columns: auto 1fr; gap: .8rem;
+    padding-bottom: .85rem; border-bottom: 1px solid var(--rule);
+  }
+  ol.looks li:last-child { border-bottom: 0; padding-bottom: 0; }
+  ol.looks .dot {
+    width: .5rem; height: .5rem; border-radius: 50%;
+    background: var(--garnet); margin-top: .55rem;
+  }
+  ol.looks strong { font-weight: 600; }
+  ol.looks span { color: var(--ink-soft); }
+
+  /* --- Fact checklist ------------------------------------------------ */
+  .facts { margin: 1.5rem 0 0; display: grid; gap: 0; }
+  .fact {
+    display: grid; grid-template-columns: auto 1fr; gap: .85rem;
+    padding: .9rem 0; border-bottom: 1px solid var(--rule);
+    align-items: start;
+  }
+  .fact:last-of-type { border-bottom: 0; }
+  .fact input[type="checkbox"] {
+    appearance: none; -webkit-appearance: none;
+    width: 1.5rem; height: 1.5rem; margin: .1rem 0 0;
+    border: 1.5px solid var(--ink-faint); border-radius: 3px;
+    background: var(--paper); cursor: pointer; flex: none; position: relative;
+  }
+  .fact input[type="checkbox"]:checked {
+    background: var(--ok); border-color: var(--ok);
+  }
+  .fact input[type="checkbox"]:checked::after {
+    content: ""; position: absolute; left: .45rem; top: .18rem;
+    width: .32rem; height: .68rem; border: solid var(--paper);
+    border-width: 0 2px 2px 0; transform: rotate(45deg);
+  }
+  .fact label { cursor: pointer; }
+  .fact .claim { display: block; }
+  .fact .src { display: block; font-size: .8125rem; color: var(--ink-faint); margin-top: .2rem; }
+  .group {
+    font-size: .6875rem; font-weight: 600; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--garnet);
+    margin: 1.9rem 0 .2rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+  }
+  .group:first-of-type { margin-top: 1.4rem; }
+
+  textarea {
+    width: 100%; margin-top: .9rem; padding: .8rem .9rem;
+    font: inherit; font-size: .9375rem;
+    background: var(--paper-sunk); color: var(--ink);
+    border: 1px solid var(--rule); border-radius: 3px;
+    min-height: 5.5rem; resize: vertical;
+  }
+  textarea::placeholder { color: var(--ink-faint); }
+
+  ul.need { list-style: none; padding: 0; margin: 1.3rem 0 0; display: grid; gap: 1.1rem; }
+  ul.need li { padding-left: 1.1rem; border-left: 2px solid var(--garnet); }
+  ul.need strong { display: block; font-weight: 600; }
+  ul.need span { color: var(--ink-soft); font-size: .9375rem; }
+
+  .left-out { background: var(--garnet-bg); padding: 1.15rem 1.25rem; border-radius: 3px; margin-top: 1.3rem; }
+  .left-out p { margin: 0 0 .7rem; font-size: .9375rem; color: var(--ink-soft); }
+  .left-out p:last-child { margin-bottom: 0; }
+  .left-out b { color: var(--ink); font-weight: 600; }
+
+  /* --- Send back ----------------------------------------------------- */
+  .send { margin-top: 3.25rem; border-top: 2px solid var(--ink); padding-top: 1.5rem; }
+  button.copy {
+    font: inherit; font-weight: 600; font-size: .9375rem;
+    background: var(--ink); color: var(--paper);
+    border: 0; border-radius: 2px; padding: 1rem 1.5rem;
+    cursor: pointer; width: 100%; margin-top: 1rem;
+  }
+  button.copy:hover, button.copy:focus-visible { background: var(--garnet); color: #fff; }
+  @media (min-width: 34rem) { button.copy { width: auto; } }
+  .status { font-size: .875rem; color: var(--ok); margin: .7rem 0 0; min-height: 1.2em; font-weight: 500; }
+
+  a { color: var(--garnet); }
+  :focus-visible { outline: 2px solid var(--garnet); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">For Irini — draft site, not yet public</p>
+  <h1>Have a look, and tell us what&rsquo;s wrong.</h1>
+  <p class="standfirst">
+    This is a first version of your website. Everything on it was checked against a
+    published source before it went on, but you are the only person who can say whether
+    it is actually <em>right</em>. It takes about ten minutes on a phone.
+  </p>
+
+  <a class="visit" id="visit" href="/">
+    <span class="label">Open the site</span>
+    <span class="url">Open the draft site &rarr;</span>
+  </a>
+  <p class="visit-note">
+    Private link — it is blocked from Google and search engines, so nothing here is
+    public yet. It only works while the laptop hosting it is switched on; if it stops
+    loading, just ask for a fresh link.
+  </p>
+
+  <!-- 01 -->
+  <section>
+    <div class="head"><span class="num">01</span><h2>Five things to try first</h2></div>
+    <div class="body">
+      <ol class="looks">
+        <li><span class="dot"></span><span><strong>The front page.</strong> The big pictures behind your name change every few seconds &mdash; there are seven.</span></li>
+        <li><span class="dot"></span><span><strong>Gallery.</strong> All 31 of your films in one place. Tap any one and it plays; the arrows move to the next.</span></li>
+        <li><span class="dot"></span><span><strong>Press.</strong> Six reviews of <em>Tango Passions</em>, 2022 to 2025.</span></li>
+        <li><span class="dot"></span><span><strong>Enquiries.</strong> Send yourself a test message so you can see what a promoter sees.</span></li>
+        <li><span class="dot"></span><span><strong>About.</strong> Your full biography &mdash; the part most worth reading closely.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section>
+    <div class="head"><span class="num">02</span><h2>Is all of this true?</h2></div>
+    <p class="lede">
+      Tick anything that is correct. Leave it unticked if it is wrong, out of date, or you
+      would rather it wasn&rsquo;t there &mdash; then say so in the box at the bottom of the section.
+    </p>
+    <div class="body">
+      <div class="facts" id="facts">
+
+        <p class="group">The violin</p>
+        <div class="fact"><input type="checkbox" id="f1"><label for="f1"><span class="claim">You started the violin at seven, taught by Sorin Alexandru Horlea of the Cyprus Symphony Orchestra.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f2"><label for="f2"><span class="claim">Your first recital was at eleven, at the Kasteliotissa Medieval Hall in Nicosia.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f3"><label for="f3"><span class="claim">You joined the Cyprus Youth Symphony Orchestra in 2014, under George Koundouri.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f4"><label for="f4"><span class="claim">In November 2015 you played as a soloist with the &ldquo;Oltenia&rdquo; Philharmonic in Craiova &mdash; your first concert outside Cyprus.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f5"><label for="f5"><span class="claim">You studied in masterclasses with Salvatore Accardo in Cyprus, and with Alexandru Tomescu in Romania, finishing with a concert at Bran Castle.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f6"><label for="f6"><span class="claim">You passed Grade 8 violin with the Royal Schools of Music at the highest mark, in 2016.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f7"><label for="f7"><span class="claim">You played the Musikverein in Vienna with the Cyprus Youth Symphony Orchestra.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f8"><label for="f8"><span class="claim">You played with the orchestra alongside Cyprien Katsaris and Aliki Chrysochou, and in <em>Cavalleria Rusticana</em>.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f9"><label for="f9"><span class="claim">In May 2018 you gave a solo recital, &ldquo;For My Mother&rdquo;, at the Kasteliotissa.</span><span class="src">The site lists it as a concert with its programme, and says nothing more about it. Tell us if you would rather it came off.</span></label></div>
+
+        <p class="group">Television</p>
+        <div class="fact"><input type="checkbox" id="f10"><label for="f10"><span class="claim">You were one of eight finalists on <em>Junior Music Stars</em>, playing Monti&rsquo;s Czárdás in the semi-final.</span><span class="src">We could not confirm a second place anywhere, so the site says &ldquo;finalist&rdquo;. Did you place?</span></label></div>
+        <div class="fact"><input type="checkbox" id="f11"><label for="f11"><span class="claim">You auditioned for <em>X Factor Greece</em> in 2019 with &ldquo;Feeling Good&rdquo; and reached the Chair Challenge.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f12"><label for="f12"><span class="claim">Three of the four coaches turned at your <em>Voice of Greece</em> blind audition; you chose Eleonora Zouganeli and were later taken by Sakis Rouvas.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f13"><label for="f13"><span class="claim">You reached the final four on 12 February 2021, at seventeen, and were the only one of the four from Sakis Rouvas&rsquo;s team.</span><span class="src">The site says &ldquo;the final four&rdquo; rather than &ldquo;third place&rdquo; &mdash; no Greek broadcaster announced a third place, and we would rather understate it than be challenged on it.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f24"><label for="f24"><span class="claim">Heaven Music introduced you as the newest addition to their roster in 2022.</span><span class="src">The site puts this in the past tense and does not claim you are signed to them now. Correct us if you are.</span></label></div>
+
+        <p class="group">Records</p>
+        <div class="fact"><input type="checkbox" id="f14"><label for="f14"><span class="claim">&ldquo;Βιάστηκα Πολύ&rdquo; came out on Heaven Music in May 2022, written by Thomas Theodorou, video directed by Lefteris Giannopoulos.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f15"><label for="f15"><span class="claim">You sang &ldquo;Ρούντολφ Το Ελαφάκι&rdquo; with Zenia Moundrea on the Feelgood Records Christmas collection in 2016.</span></label></div>
+
+        <p class="group">Stage</p>
+        <div class="fact"><input type="checkbox" id="f16"><label for="f16"><span class="claim">You have been the live violin and voice in Vincent Simone&rsquo;s <em>Tango Passions</em> since its opening night in September 2022.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f17"><label for="f17"><span class="claim">You are the only live musician in that show &mdash; everything else is recorded.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f18"><label for="f18"><span class="claim">You played your own stage at the MoonWalk festival in Protaras in 2024 and again in 2025.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f19"><label for="f19"><span class="claim">You went on to study musical theatre in England.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f20"><label for="f20"><span class="claim">You perform in English, Greek and Spanish.</span></label></div>
+
+        <p class="group">You</p>
+        <div class="fact"><input type="checkbox" id="f21"><label for="f21"><span class="claim">You are from Nicosia, and the site describes you as Cypriot and Romanian.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f22"><label for="f22"><span class="claim">You are represented by QMA.</span><span class="src">The site says &ldquo;represented by&rdquo; only &mdash; it does not say they take music bookings. Do they?</span></label></div>
+        <div class="fact"><input type="checkbox" id="f23"><label for="f23"><span class="claim">Enquiries should go to the email address currently shown on the site.</span><span class="src">A dedicated booking address would read better to a promoter. Say the word and we&rsquo;ll switch it.</span></label></div>
+      </div>
+
+      <textarea id="corrections" placeholder="Anything wrong, missing, or that you'd rather we didn't say — type it here."></textarea>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section>
+    <div class="head"><span class="num">03</span><h2>What we need from you</h2></div>
+    <p class="lede">These are the things nobody can research &mdash; only you can send them.</p>
+    <div class="body">
+      <ul class="need">
+        <li><strong>Photographs</strong><span>The biggest single thing. Right now the pictures are frames taken from your own films. Real photos would transform the site &mdash; anything cleared for use, as large as you have them.</span></li>
+        <li><strong>Live dates</strong><span>Past and upcoming. There is no &ldquo;Live&rdquo; section yet because we could not verify a single date well enough to publish it.</span></li>
+        <li><strong>Anything unreleased</strong><span>New music, new video, a showreel. There is a Vimeo reel we could not open &mdash; if that is yours, send it.</span></li>
+        <li><strong>Brand or campaign work</strong><span>If you have done any, and we may name it.</span></li>
+      </ul>
+      <textarea id="sending" placeholder="What you're sending, or anything else we should know."></textarea>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section>
+    <div class="head"><span class="num">04</span><h2>What we left out on purpose</h2></div>
+    <div class="body">
+      <div class="left-out">
+        <p><b>Eurovision.</b> You submitted a song to ERT for the Greek national final. Submitting is not the same as being selected, and a promoter who checks will notice &mdash; so it is not on the site.</p>
+        <p><b>Streaming numbers.</b> Your Spotify listener count is low, and putting it next to 4.7 million video views would only draw attention to it. The site leads with television and video instead.</p>
+        <p><b>Your age.</b> No birth year anywhere. It dates a site and it is nobody&rsquo;s business.</p>
+        <p><b>Your family.</b> Nothing, beyond the title of the 2018 recital.</p>
+        <p>If you want any of these handled differently, that is entirely your call &mdash; say so below.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Send back -->
+  <div class="send">
+    <h2>Sending it back</h2>
+    <p class="lede" style="margin-left:0">
+      Press the button and everything you&rsquo;ve ticked and typed is copied as plain text.
+      Paste it into a message. Nothing is sent anywhere on its own.
+    </p>
+    <button class="copy" id="copy" type="button">Copy my answers</button>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var KEY = "irini-review-v1";
+    var boxes = Array.prototype.slice.call(document.querySelectorAll('#facts input[type="checkbox"]'));
+    var areas = [document.getElementById("corrections"), document.getElementById("sending")];
+
+    // Restore anything from a previous sitting on this device.
+    try {
+      var saved = JSON.parse(localStorage.getItem(KEY) || "{}");
+      boxes.forEach(function (b) { if (saved[b.id]) b.checked = true; });
+      areas.forEach(function (a) { if (saved[a.id]) a.value = saved[a.id]; });
+    } catch (e) { /* private mode, or storage blocked — the page still works */ }
+
+    function save() {
+      var state = {};
+      boxes.forEach(function (b) { if (b.checked) state[b.id] = 1; });
+      areas.forEach(function (a) { if (a.value.trim()) state[a.id] = a.value; });
+      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+    }
+    boxes.forEach(function (b) { b.addEventListener("change", save); });
+    areas.forEach(function (a) { a.addEventListener("input", save); });
+
+    function text(el) { return (el.textContent || "").replace(/\s+/g, " ").trim(); }
+
+    document.getElementById("copy").addEventListener("click", function () {
+      var wrong = [], right = 0;
+      boxes.forEach(function (b) {
+        var claim = text(b.parentNode.querySelector(".claim"));
+        if (b.checked) { right++; } else { wrong.push("— " + claim); }
+      });
+
+      var out = ["IRINI — SITE REVIEW", ""];
+      out.push("Confirmed correct: " + right + " of " + boxes.length);
+      out.push("");
+      if (wrong.length) {
+        out.push("NOT CONFIRMED (wrong, out of date, or leave off):");
+        out = out.concat(wrong);
+        out.push("");
+      }
+      var c = document.getElementById("corrections").value.trim();
+      if (c) { out.push("CORRECTIONS:", c, ""); }
+      var s = document.getElementById("sending").value.trim();
+      if (s) { out.push("SENDING / NOTES:", s, ""); }
+
+      var payload = out.join("\n");
+      var status = document.getElementById("status");
+
+      function fallback() {
+        var ta = document.createElement("textarea");
+        ta.value = payload;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (e) {}
+        document.body.removeChild(ta);
+        status.textContent = ok
+          ? "Copied. Paste it into a message."
+          : "Couldn't copy automatically — select the text above and copy it by hand.";
+      }
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(payload).then(function () {
+          status.textContent = "Copied. Paste it into a message.";
+        }, fallback);
+      } else {
+        fallback();
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>
