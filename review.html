@@ -107,6 +107,12 @@
     margin: .7rem 0 0;
   }
 
+  .changed { margin-top: 2rem; border: 1px solid var(--rule); padding: 1.25rem 1.15rem; }
+  .changed-h { margin: 0 0 .75rem; font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; opacity: .62; }
+  .changed ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .5rem; }
+  .changed li { font-size: .94rem; line-height: 1.5; }
+  .changed-n { margin: 1rem 0 0; padding-top: .9rem; border-top: 1px solid var(--rule); font-size: .88rem; line-height: 1.5; opacity: .72; }
+
   /* --- Numbered sections: the numbering is the review order ---------- */
   section { margin-top: 3.25rem; border-top: 1px solid var(--rule); padding-top: 1.5rem; }
   .head { display: flex; gap: .9rem; align-items: baseline; }
@@ -213,10 +219,26 @@
   <p class="eyebrow">For Irini — draft site, not yet public</p>
   <h1>Have a look, and tell us what&rsquo;s wrong.</h1>
   <p class="standfirst">
-    This is a first version of your website. Everything on it was checked against a
-    published source before it went on, but you are the only person who can say whether
-    it is actually <em>right</em>. It takes about ten minutes on a phone.
+    This is the second version, rebuilt around your notes. Everything on it was checked
+    against a published source before it went on, but you are the only person who can say
+    whether it is actually <em>right</em>. It takes about ten minutes on a phone.
   </p>
+
+  <div class="changed">
+    <p class="changed-h">What changed since you last looked</p>
+    <ul>
+      <li><strong>Gone completely.</strong> MoonWalk, &ldquo;Βιάστηκα Πολύ&rdquo; and Heaven Music &mdash; out of the biography, the timeline, the records list and the gallery.</li>
+      <li><strong>Vienna is no longer a headline.</strong> It now sits inside the orchestra credit, alongside Alkinoos Ioannidis and Alkistis Protopsalti, exactly as you described it.</li>
+      <li><strong>The gallery is in folders</strong> &mdash; with a DJ, theatre, corporate, television, most watched, and a spotlight of the few you should be judged on. Three folders are empty and say so, waiting for your footage.</li>
+      <li><strong>Television is smaller.</strong> Fewer clips, and the run of talent shows is told once rather than four times.</li>
+      <li><strong>Added:</strong> Anton Du Beke&rsquo;s 2023 tour, the Mediterranean Youth Orchestra, and a review that names you.</li>
+      <li><strong>Cyprus, based in the UK, available worldwide</strong> &mdash; now the first thing the biography says.</li>
+    </ul>
+    <p class="changed-n">
+      Still not done: the photographs. Nothing on the site is a photograph of you, because
+      none were cleared. Every picture is a frame from one of your own films.
+    </p>
+  </div>
 
   <a class="visit" id="visit" href="./">
     <span class="label">Open the site</span>
@@ -224,8 +246,8 @@
   </a>
   <p class="visit-note">
     Private link — it is blocked from Google and search engines, so nothing here is
-    public yet. It only works while the laptop hosting it is switched on; if it stops
-    loading, just ask for a fresh link.
+    public yet. It stays up permanently now, so the link keeps working and you can come
+    back to it whenever you like.
   </p>
 
   <!-- 01 -->
@@ -234,10 +256,10 @@
     <div class="body">
       <ol class="looks">
         <li><span class="dot"></span><span><strong>The front page.</strong> The big pictures behind your name change every few seconds &mdash; there are seven.</span></li>
-        <li><span class="dot"></span><span><strong>Gallery.</strong> All 31 of your films in one place. Tap any one and it plays; the arrows move to the next.</span></li>
-        <li><span class="dot"></span><span><strong>Press.</strong> Six reviews of <em>Tango Passions</em>, 2022 to 2025.</span></li>
+        <li><span class="dot"></span><span><strong>Gallery.</strong> Now sorted into folders by what someone is booking you for. Tap the folder names along the top. Tap any film and it plays; the arrows move to the next.</span></li>
+        <li><span class="dot"></span><span><strong>Press.</strong> Seven reviews, 2022 to 2025 &mdash; including the Anton Du Beke one that names you.</span></li>
         <li><span class="dot"></span><span><strong>Enquiries.</strong> Send yourself a test message so you can see what a promoter sees.</span></li>
-        <li><span class="dot"></span><span><strong>About.</strong> Your full biography &mdash; the part most worth reading closely.</span></li>
+        <li><span class="dot"></span><span><strong>About.</strong> Your full biography &mdash; the part most worth reading closely. Underneath it is your own statement, rewritten from what you sent. It is the only thing on the site written in your voice, so it has to sound like you. Change any of it.</span></li>
       </ol>
     </div>
   </section>
@@ -255,34 +277,35 @@
         <p class="group">The violin</p>
         <div class="fact"><input type="checkbox" id="f1"><label for="f1"><span class="claim">You started the violin at seven, taught by Sorin Alexandru Horlea of the Cyprus Symphony Orchestra.</span></label></div>
         <div class="fact"><input type="checkbox" id="f2"><label for="f2"><span class="claim">Your first recital was at eleven, at the Kasteliotissa Medieval Hall in Nicosia.</span></label></div>
-        <div class="fact"><input type="checkbox" id="f3"><label for="f3"><span class="claim">You joined the Cyprus Youth Symphony Orchestra in 2014, under George Koundouri.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f3"><label for="f3"><span class="claim">You joined the Cyprus Youth Symphony Orchestra in 2014, under George Koundouri, and were chosen from it for the Cyprus Concert at the Musikverein in Vienna.</span><span class="src">Vienna is no longer a headline anywhere &mdash; it now sits inside the orchestra credit, as you asked. We name the Brahms-Saal rather than &ldquo;the Musikverein&rdquo; alone, so nobody reads it as the Golden Hall.</span></label></div>
         <div class="fact"><input type="checkbox" id="f4"><label for="f4"><span class="claim">In November 2015 you played as a soloist with the &ldquo;Oltenia&rdquo; Philharmonic in Craiova &mdash; your first concert outside Cyprus.</span></label></div>
         <div class="fact"><input type="checkbox" id="f5"><label for="f5"><span class="claim">You studied in masterclasses with Salvatore Accardo in Cyprus, and with Alexandru Tomescu in Romania, finishing with a concert at Bran Castle.</span></label></div>
         <div class="fact"><input type="checkbox" id="f6"><label for="f6"><span class="claim">You passed Grade 8 violin with the Royal Schools of Music at the highest mark, in 2016.</span></label></div>
-        <div class="fact"><input type="checkbox" id="f7"><label for="f7"><span class="claim">You played the Musikverein in Vienna with the Cyprus Youth Symphony Orchestra.</span></label></div>
-        <div class="fact"><input type="checkbox" id="f8"><label for="f8"><span class="claim">You played with the orchestra alongside Cyprien Katsaris and Aliki Chrysochou, and in <em>Cavalleria Rusticana</em>.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f8"><label for="f8"><span class="claim">You played with the orchestra alongside Alkinoos Ioannidis, Alkistis Protopsalti and Cyprien Katsaris, and in <em>Cavalleria Rusticana</em>.</span></label></div>
         <div class="fact"><input type="checkbox" id="f9"><label for="f9"><span class="claim">In May 2018 you gave a solo recital, &ldquo;For My Mother&rdquo;, at the Kasteliotissa.</span><span class="src">The site lists it as a concert with its programme, and says nothing more about it. Tell us if you would rather it came off.</span></label></div>
+
+        <div class="fact"><input type="checkbox" id="f25"><label for="f25"><span class="claim">In 2025 you were selected for the Orchestre des Jeunes de la M&eacute;diterran&eacute;e, the Festival d&rsquo;Aix-en-Provence&rsquo;s Mediterranean Youth Orchestra, which Cyprus enters through the youth symphony orchestra.</span><span class="src">Two questions. The 2025 session ran in Aix-en-Provence in July; Marseille was where the auditions were held, in December 2024. Did you audition in Marseille, or go through the Cyprus orchestra? And is there a concert you played that we can name?</span></label></div>
 
         <p class="group">Television</p>
         <div class="fact"><input type="checkbox" id="f10"><label for="f10"><span class="claim">You were one of eight finalists on <em>Junior Music Stars</em>, playing Monti&rsquo;s Czárdás in the semi-final.</span><span class="src">We could not confirm a second place anywhere, so the site says &ldquo;finalist&rdquo;. Did you place?</span></label></div>
         <div class="fact"><input type="checkbox" id="f11"><label for="f11"><span class="claim">You auditioned for <em>X Factor Greece</em> in 2019 with &ldquo;Feeling Good&rdquo; and reached the Chair Challenge.</span></label></div>
         <div class="fact"><input type="checkbox" id="f12"><label for="f12"><span class="claim">Three of the four coaches turned at your <em>Voice of Greece</em> blind audition; you chose Eleonora Zouganeli and were later taken by Sakis Rouvas.</span></label></div>
         <div class="fact"><input type="checkbox" id="f13"><label for="f13"><span class="claim">You reached the final four on 12 February 2021, at seventeen, and were the only one of the four from Sakis Rouvas&rsquo;s team.</span><span class="src">The site says &ldquo;the final four&rdquo; rather than &ldquo;third place&rdquo; &mdash; no Greek broadcaster announced a third place, and we would rather understate it than be challenged on it.</span></label></div>
-        <div class="fact"><input type="checkbox" id="f24"><label for="f24"><span class="claim">Heaven Music introduced you as the newest addition to their roster in 2022.</span><span class="src">The site puts this in the past tense and does not claim you are signed to them now. Correct us if you are.</span></label></div>
 
         <p class="group">Records</p>
-        <div class="fact"><input type="checkbox" id="f14"><label for="f14"><span class="claim">&ldquo;Βιάστηκα Πολύ&rdquo; came out on Heaven Music in May 2022, written by Thomas Theodorou, video directed by Lefteris Giannopoulos.</span></label></div>
         <div class="fact"><input type="checkbox" id="f15"><label for="f15"><span class="claim">You sang &ldquo;Ρούντολφ Το Ελαφάκι&rdquo; with Zenia Moundrea on the Feelgood Records Christmas collection in 2016.</span></label></div>
 
         <p class="group">Stage</p>
         <div class="fact"><input type="checkbox" id="f16"><label for="f16"><span class="claim">You have been the live violin and voice in Vincent Simone&rsquo;s <em>Tango Passions</em> since its opening night in September 2022.</span></label></div>
         <div class="fact"><input type="checkbox" id="f17"><label for="f17"><span class="claim">You are the only live musician in that show &mdash; everything else is recorded.</span></label></div>
-        <div class="fact"><input type="checkbox" id="f18"><label for="f18"><span class="claim">You played your own stage at the MoonWalk festival in Protaras in 2024 and again in 2025.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f26"><label for="f26"><span class="claim">You played violin in Anton Du Beke&rsquo;s band on the 2023 UK tour, <em>An Evening with Anton Du Beke and Friends</em>, with Lance Ellington singing.</span><span class="src">This one is solid: the <em>Seen and Heard International</em> review prints the band list with your name in it, and calls the tango &ldquo;the very best dance routine&hellip; featuring Irini Pericleous&rsquo;s fiery Spanish violin&rdquo;. Two things it does <em>not</em> say: it credits you as &ldquo;violin&rdquo;, not lead violinist, and it does not credit you as a singer. If you sang in that show, tell us and we&rsquo;ll add it.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f27"><label for="f27"><span class="claim">You were on stage at the London Palladium with that tour on 1 October 2023.</span><span class="src">The tour played the Palladium that night &mdash; that is documented. What is not published anywhere is the band list for that particular date, so at the moment the site credits the tour with the venue rather than putting you on that stage. Confirm it and we can say it outright. A dated photo or a programme would let us say it with a source.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f28"><label for="f28"><span class="claim">You perform live over DJ sets &mdash; techno, house and afro-house &mdash; and at corporate and private events.</span><span class="src">We could not find a single public post, listing or review of this anywhere, so right now it rests entirely on your word. It is also the thing you most want bookings for. Send the Instagram videos and it stops being a claim and starts being evidence.</span></label></div>
         <div class="fact"><input type="checkbox" id="f19"><label for="f19"><span class="claim">You went on to study musical theatre in England.</span></label></div>
         <div class="fact"><input type="checkbox" id="f20"><label for="f20"><span class="claim">You perform in English, Greek and Spanish.</span></label></div>
 
         <p class="group">You</p>
-        <div class="fact"><input type="checkbox" id="f21"><label for="f21"><span class="claim">You are from Nicosia, and the site describes you as Cypriot and Romanian.</span></label></div>
+        <div class="fact"><input type="checkbox" id="f21"><label for="f21"><span class="claim">You are from Cyprus, based in the United Kingdom and available worldwide, and the site describes you as Cypriot and Romanian.</span><span class="src">Nicosia is gone from the biographies &mdash; the site now says Cyprus, and puts the UK base up front.</span></label></div>
         <div class="fact"><input type="checkbox" id="f22"><label for="f22"><span class="claim">You are represented by QMA.</span><span class="src">The site says &ldquo;represented by&rdquo; only &mdash; it does not say they take music bookings. Do they?</span></label></div>
         <div class="fact"><input type="checkbox" id="f23"><label for="f23"><span class="claim">Enquiries should go to the email address currently shown on the site.</span><span class="src">A dedicated booking address would read better to a promoter. Say the word and we&rsquo;ll switch it.</span></label></div>
       </div>
@@ -300,6 +323,8 @@
         <li><strong>Photographs</strong><span>The biggest single thing. Right now the pictures are frames taken from your own films. Real photos would transform the site &mdash; anything cleared for use, as large as you have them.</span></li>
         <li><strong>Live dates</strong><span>Past and upcoming. There is no &ldquo;Live&rdquo; section yet because we could not verify a single date well enough to publish it.</span></li>
         <li><strong>Anything unreleased</strong><span>New music, new video, a showreel. There is a Vimeo reel we could not open &mdash; if that is yours, send it.</span></li>
+        <li><strong>The DJ videos</strong><span>You said you would send them. They matter more than anything else on this list except the photographs: the electronic work is what you want to be booked for, and it is the one part of the site with nothing to show. Send them and the folder fills.</span></li>
+        <li><strong>Anton Du Beke and the Palladium</strong><span>Anything dated from that tour &mdash; a programme, a photo, a call sheet. It would let us put you on that stage by name instead of crediting the tour with the venue.</span></li>
         <li><strong>Brand or campaign work</strong><span>If you have done any, and we may name it.</span></li>
       </ul>
       <textarea id="sending" placeholder="What you're sending, or anything else we should know."></textarea>
@@ -315,6 +340,8 @@
         <p><b>Streaming numbers.</b> Your Spotify listener count is low, and putting it next to 4.7 million video views would only draw attention to it. The site leads with television and video instead.</p>
         <p><b>Your age.</b> No birth year anywhere. It dates a site and it is nobody&rsquo;s business.</p>
         <p><b>Your family.</b> Nothing, beyond the title of the 2018 recital.</p>
+        <p><b>&ldquo;West End&rdquo; for the Bloomsbury Theatre.</b> The Palladium is a West End theatre; the Bloomsbury is not &mdash; it is Off-West-End, and four separate listings bodies classify it that way. A producer reading the site would know. So the site names the theatres and lets them speak, rather than using the phrase and being wrong about half of it.</p>
+        <p><b>&ldquo;Lead violinist&rdquo; and &ldquo;singer&rdquo; on the Du Beke tour.</b> The review that names you credits you as &ldquo;violin&rdquo; and credits Lance Ellington as the vocalist. You may well have done more &mdash; if so, say so and we will put it back.</p>
         <p>If you want any of these handled differently, that is entirely your call &mdash; say so below.</p>
       </div>
     </div>
