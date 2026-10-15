@@ -4,39 +4,42 @@
 7:I[97367,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
 8:I[97367,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
 6:X
-21:X
-21:C
-0:{"buildId":"FSl8vGg_ysjjTrN2YsIkL","data":[{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"shell pt-32 pb-14 md:pt-44 md:pb-20","children":[["$","p",null,{"className":"meta enter","style":{"--d":"60ms"},"children":"Privacy"}],["$","h1",null,{"className":"display display-lg enter mt-5 max-w-[16ch]","style":{"--d":"150ms"},"children":"What this site collects."}],["$","p",null,{"className":"lede enter mt-8 md:mt-10","style":{"--d":"290ms"},"children":"Very little, and only what is needed to answer you."}],null]}],["$","section",null,{"className":"section rule-top ","children":["$","div",null,{"className":"shell","children":[["$","div",null,{"className":"rail","children":[["$","div",null,{"className":"mb-8 flex items-baseline gap-4 lg:sticky lg:top-32 lg:mb-0 lg:h-fit lg:flex-col lg:items-start lg:gap-3","data-reveal":true,"children":[["$","span",null,{"className":"meta tnum","children":"01"}],["$","span",null,{"className":"meta meta-bright","children":"In short"}]]}],["$","div",null,{"className":"min-w-0","children":["$","div",null,{"className":"prose-body max-w-[38rem] space-y-5","children":[["$","p",null,{"children":"This website has no analytics, no advertising, no tracking pixels and no cookie banner — because it sets no cookies of its own and runs no third-party tracking. There is nothing to consent to."}],["$","h2",null,{"className":"display display-md pt-6 text-[var(--color-bone)]","children":"The enquiry form"}],["$","p",null,{"children":"When you send an enquiry, the name, email address, optional organisation and message you type are transmitted to the inbox that handles bookings and partnerships, so that someone can reply. They are used for that purpose and no other. They are not sold, shared with third parties for marketing, or added to a mailing list."}],["$","p",null,{"children":"Your submission is not stored in a database by this website. The server keeps a short-lived, in-memory count of recent submissions per network address purely to stop automated abuse; it holds no message content and is discarded within minutes."}],["$","p",null,{"children":["To have an enquiry you sent deleted, or to ask what is held, write to"," ",["$","a",null,{"href":"mailto:irinipericleous02@gmail.com","className":"link-inline","children":"irinipericleous02@gmail.com"}],"."]}],["$","h2",null,{"className":"display display-md pt-6 text-[var(--color-bone)]","children":"Video"}],["$","p",null,{"children":"Performance videos on this site are hosted by YouTube. Nothing is requested from YouTube until you press play on a specific video — until then, only a still image is loaded. Once you do press play, YouTube receives your request and its own terms and privacy policy apply. The embeds use YouTube’s privacy-enhanced mode."}],["$","h2",null,{"className":"display display-md pt-6 text-[var(--color-bone)]","children":"Fonts and hosting"}],["$","p",null,{"children":"Typefaces are served from this site’s own domain, not from a third-party font service, so loading a page sends no request to anyone else."}]]}]}]]}],null]}]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0c0b0a"}],["$","meta","3",{"name":"color-scheme","content":"dark"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Privacy — Irini Pericleous"}],["$","meta","1",{"name":"description","content":"How enquiries submitted through this website are handled, and what this site does and does not collect."}],["$","meta","2",{"name":"application-name","content":"Irini Pericleous"}],["$","meta","3",{"name":"author","content":"Irini Pericleous"}],["$","meta","4",{"name":"keywords","content":"Irini Pericleous,Ειρήνη Περικλέους,Eirini Pericleous,Irini Perikleous,violinist,singer,Cyprus,The Voice of Greece,crossover violinist,booking"}],"$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c"]}]}]}],"$L1d"]}],"isPartial":"$@1e","staleTime":"$6","varyParams":null},{"rsc":"$L1f","isPartial":"$@20","staleTime":"$6","varyParams":"$21"}],"isUpgradeableISRFallback":false,"a":"$@22","rootVaryParams":null,"needsRuntimeRequest":"$@23"}
-24:I[27201,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
-25:I[39756,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"default"]
-26:I[37457,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"default"]
+24:X
+24:C
+0:{"buildId":"T4MvN3aC-zoX2-0W6--gu","data":[{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"on-dark relative isolate overflow-hidden band-dark","children":[null,["$","div",null,{"className":"wrap relative z-10 flex min-h-[25rem] flex-col items-center justify-center pb-16 pt-32 text-center md:min-h-[30.25rem] md:pb-20 md:pt-36","children":[["$","p",null,{"className":"eyebrow enter over-media","style":{"--d":"60ms"},"children":"Privacy"}],["$","h1",null,{"className":"display display-lg enter over-media mt-4 max-w-[18ch]","style":{"--d":"140ms"},"children":"What this site collects."}],["$","p",null,{"className":"lede enter over-media mx-auto mt-6 max-w-[40rem] text-center","style":{"--d":"260ms"},"children":"Very little, and only what is needed to answer you."}],null]}]]}],["$","section",null,{"className":"section","children":["$","div",null,{"className":"wrap","children":["$","div",null,{"className":"prose-body mx-auto max-w-[40rem] space-y-5 text-[1.125rem]","children":[["$","p",null,{"className":"text-[1.375rem] italic leading-[1.5] text-[var(--fg)]","children":"This website has no analytics, no advertising, no tracking pixels and no cookie banner — because it sets no cookies of its own and runs no third-party tracking. There is nothing to consent to."}],["$","h2",null,{"className":"display display-sm pt-6 text-[var(--fg)]","children":"The enquiry form"}],["$","p",null,{"children":"When you send an enquiry, the name, email address, optional organisation and message you type are transmitted to the inbox that handles bookings and partnerships, so that someone can reply. They are used for that purpose and no other. They are not sold, shared with third parties for marketing, or added to a mailing list."}],["$","p",null,{"children":"Your submission is not stored in a database by this website. The server keeps a short-lived, in-memory count of recent submissions per network address purely to stop automated abuse; it holds no message content and is discarded within minutes."}],["$","p",null,{"children":["To have an enquiry you sent deleted, or to ask what is held, write to"," ",["$","a",null,{"href":"mailto:irinipericleous02@gmail.com","className":"link-inline","children":"irinipericleous02@gmail.com"}],"."]}],["$","h2",null,{"className":"display display-sm pt-6 text-[var(--fg)]","children":"Video"}],["$","p",null,{"children":"The short silent loops on these pages, and the film of her performing live, are served from this site itself — playing them sends no request to anyone else. They are not downloaded at all if your device asks for reduced motion or for less data."}],["$","p",null,{"children":"The other performance films are hosted by YouTube. Nothing is requested from YouTube until you press play on a specific one — until then only a still image is shown. Once you press play, YouTube receives your request and its own terms and privacy policy apply. The embeds use YouTube’s privacy-enhanced mode."}],["$","h2",null,{"className":"display display-sm pt-6 text-[var(--fg)]","children":"Fonts and hosting"}],["$","p",null,{"children":"Typefaces are served from this site’s own domain, not from a third-party font service, so loading a page sends no request to anyone else."}]]}]}]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fbf6f1"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Privacy — Irini Pericleous"}],["$","meta","1",{"name":"description","content":"How enquiries submitted through this website are handled, and what this site does and does not collect."}],"$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"]}]}]}],"$L20"]}],"isPartial":"$@21","staleTime":"$6","varyParams":null},{"rsc":"$L22","isPartial":"$@23","staleTime":"$6","varyParams":"$24"}],"isUpgradeableISRFallback":false,"a":"$@25","rootVaryParams":null,"needsRuntimeRequest":"$@26"}
+27:I[27201,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+28:I[39756,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"default"]
+29:I[37457,["/irini-site/_next/static/chunks/3fntmmi971322.js"],"default"]
 4:null
-9:["$","meta","5",{"name":"creator","content":"Irini Pericleous"}]
-a:["$","meta","6",{"name":"robots","content":"noindex, nofollow, nocache"}]
-b:["$","link","7",{"rel":"canonical","href":"https://andy-arrow.github.io/irini-site/privacy/"}]
-c:["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}]
-d:["$","meta","9",{"property":"og:title","content":"Privacy — Irini Pericleous"}]
-e:["$","meta","10",{"property":"og:description","content":"How enquiries submitted through this website are handled, and what this site does and does not collect."}]
-f:["$","meta","11",{"property":"og:url","content":"https://andy-arrow.github.io/irini-site/privacy/"}]
-10:["$","meta","12",{"property":"og:site_name","content":"Irini Pericleous"}]
-11:["$","meta","13",{"property":"og:locale","content":"en_GB"}]
-12:["$","meta","14",{"property":"og:image","content":"https://andy-arrow.github.io/irini-site/opengraph-image"}]
-13:["$","meta","15",{"property":"og:image:width","content":"1200"}]
-14:["$","meta","16",{"property":"og:image:height","content":"630"}]
-15:["$","meta","17",{"property":"og:image:alt","content":"Irini Pericleous"}]
-16:["$","meta","18",{"property":"og:type","content":"website"}]
-17:["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}]
-18:["$","meta","20",{"name":"twitter:title","content":"Privacy — Irini Pericleous"}]
-19:["$","meta","21",{"name":"twitter:description","content":"How enquiries submitted through this website are handled, and what this site does and does not collect."}]
-1a:["$","meta","22",{"name":"twitter:image","content":"https://andy-arrow.github.io/irini-site/opengraph-image"}]
-1b:["$","link","23",{"rel":"icon","href":"/irini-site/icon","type":"image/png","sizes":"64x64"}]
-1c:["$","$L24","24",{}]
-1d:["$","meta",null,{"name":"next-size-adjust","content":""}]
-1f:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
-23:true
+9:["$","meta","2",{"name":"application-name","content":"Irini Pericleous"}]
+a:["$","meta","3",{"name":"author","content":"Irini Pericleous"}]
+b:["$","meta","4",{"name":"keywords","content":"Irini Pericleous,Ειρήνη Περικλέους,Eirini Pericleous,Irini Perikleous,violinist,singer,Cyprus,The Voice of Greece,crossover violinist,booking"}]
+c:["$","meta","5",{"name":"creator","content":"Irini Pericleous"}]
+d:["$","meta","6",{"name":"robots","content":"noindex, nofollow, nocache"}]
+e:["$","link","7",{"rel":"canonical","href":"https://andy-arrow.github.io/irini-site/privacy/"}]
+f:["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}]
+10:["$","meta","9",{"property":"og:title","content":"Privacy — Irini Pericleous"}]
+11:["$","meta","10",{"property":"og:description","content":"How enquiries submitted through this website are handled, and what this site does and does not collect."}]
+12:["$","meta","11",{"property":"og:url","content":"https://andy-arrow.github.io/irini-site/privacy/"}]
+13:["$","meta","12",{"property":"og:site_name","content":"Irini Pericleous"}]
+14:["$","meta","13",{"property":"og:locale","content":"en_GB"}]
+15:["$","meta","14",{"property":"og:image","content":"https://andy-arrow.github.io/irini-site/opengraph-image"}]
+16:["$","meta","15",{"property":"og:image:width","content":"1200"}]
+17:["$","meta","16",{"property":"og:image:height","content":"630"}]
+18:["$","meta","17",{"property":"og:image:alt","content":"Irini Pericleous"}]
+19:["$","meta","18",{"property":"og:type","content":"website"}]
+1a:["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}]
+1b:["$","meta","20",{"name":"twitter:title","content":"Privacy — Irini Pericleous"}]
+1c:["$","meta","21",{"name":"twitter:description","content":"How enquiries submitted through this website are handled, and what this site does and does not collect."}]
+1d:["$","meta","22",{"name":"twitter:image","content":"https://andy-arrow.github.io/irini-site/opengraph-image"}]
+1e:["$","link","23",{"rel":"icon","href":"/irini-site/icon","type":"image/png","sizes":"64x64"}]
+1f:["$","$L27","24",{}]
+20:["$","meta",null,{"name":"next-size-adjust","content":""}]
+22:["$","$1","c",{"children":[null,["$","$L28",null,{"parallelRouterKey":"children","template":["$","$L29",null,{}]}]]}]
+26:true
 6:300
 6:C
-22:0
-1e:"$undefined"
-20:"$undefined"
+25:0
+21:"$undefined"
+23:"$undefined"
 5:"$undefined"
