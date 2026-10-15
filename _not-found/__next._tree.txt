@@ -1,2 +1,2 @@
-:HL["/irini-site/_next/static/chunks/19ygiv5pth8kp.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"k__onAmW2JXEVSKowQkyx"}
+:HL["/irini-site/_next/static/chunks/308_cgaeovd2m.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"HFM-bgIYT2Lmh3yiZ7Xbu"}
